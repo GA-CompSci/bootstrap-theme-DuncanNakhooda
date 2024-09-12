@@ -1,6 +1,11 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/13283e-0d121c-161e27-080a0d-ffffff
+13283e - Prussian Blue
+0d121c- Rich Black
+161e27- Rich Black 2
+080a0d - Night
+ffffff - White
 
 *****/
 
@@ -9,9 +14,11 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Josefin Sans", sans-serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
 
 }
