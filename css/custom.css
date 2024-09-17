@@ -22,3 +22,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bebas Neue", sans-serif;
 
 }
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background: url("../img/websitehero.jpeg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+/********************/
+/******* COLORS ******/
+/********************/
+.btn-primary {
+    background: #ffffff;
+    border: 4px solid #0d0d0d; 
+    color: #0d0d0d; 
+}
+.btn-primary:hover {
+    background: #a9c0ed;
+    border: 4px solid #ffffff; 
+    color: #3f669c; 
+}
+hr.divider {
+    background-color: #ffffff;
+}
