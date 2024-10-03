@@ -1,4 +1,4 @@
-/***** 
+ /***** 
 COLOR CHEAT SHEET 
 https://coolors.co/13283e-0d121c-161e27-080a0d-ffffff
 13283e - Prussian Blue
@@ -13,13 +13,17 @@ ffffff - White
 /********************/
 /******* FONTS ******/
 /********************/
+body {
+    background: black;
+}
 body, p {
     font-family: "Josefin Sans", sans-serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif; 
+    color: white;
 
 }
 
@@ -32,20 +36,76 @@ header.masthead {
     background-size: cover;
 
 }
+header.masthead h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+header.masthead p {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    font-size: 20px
+}
 
 /********************/
 /******* COLORS ******/
 /********************/
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #d0d1d2 !important;
+}
+
 .btn-primary {
     background: #ffffff;
     border: 4px solid #0d0d0d; 
     color: #0d0d0d; 
 }
-.btn-primary:hover {
-    background: #a9c0ed;
-    border: 4px solid #ffffff; 
-    color: #3f669c; 
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #13283e !important;
+    border: 4px solid #ffffff !important; 
+    color: #3eb2ff; 
 }
 hr.divider {
     background-color: #ffffff;
+}
+.bg-primary {
+    background-color: #13283e !important;
+}
+
+.text-primary {
+ color: #3eb2ff !important;
+
+}
+
+/********************/
+/*******  NAV  ******/
+/********************/
+
+#mainNav.navbar-shrink {
+	background-color: #13283e;
+}
+#mainNav.navbar-shrink .navbar-brand {
+	color: #3eb2ff;
+    font-family: "Bebas Neue", sans-serif;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+	color: #3eb2ff;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #ffffff !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 3px  black;
+}
+
+/********************/
+/*******  TOP 6  IMAGES  ******/
+/********************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #3eb2ff9d;
+
 }
